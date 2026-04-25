@@ -10,6 +10,10 @@ A Spring Boot application implementing Retrieval-Augmented Generation (RAG) usin
 - **Ollama Integration**: Supports multiple Ollama models (Mistral, Llama, etc.)
 - **Docker Compose**: Easy setup with containerized PostgreSQL and Ollama services
 
+## Snaps
+<img width="1901" height="916" alt="Screenshot 2026-04-19 215236" src="https://github.com/user-attachments/assets/de5ca409-c545-458d-bd9a-1e0470a58594" />
+
+
 ## Prerequisites
 
 - Java 21 or higher
