@@ -11,7 +11,12 @@ A Spring Boot application implementing Retrieval-Augmented Generation (RAG) usin
 - **Docker Compose**: Easy setup with containerized PostgreSQL and Ollama services
 
 ## Snaps
+
 <img width="1901" height="916" alt="Screenshot 2026-04-19 215236" src="https://github.com/user-attachments/assets/de5ca409-c545-458d-bd9a-1e0470a58594" />
+
+<img width="1886" height="904" alt="Screenshot 2026-04-19 215251" src="https://github.com/user-attachments/assets/e1f10b95-d885-4bd8-922b-b7528648215e" />
+
+<img width="1909" height="910" alt="Screenshot 2026-04-19 215533" src="https://github.com/user-attachments/assets/35d085c7-803a-4dab-9252-3f95ece420f1" />
 
 
 ## Prerequisites
@@ -199,6 +204,8 @@ CREATE INDEX ON vector_store USING HNSW (embedding vector_cosine_ops);
 3. **Database Connection Error**: Check PostgreSQL is running and credentials are correct.
 
 4. **Compilation Errors**: Ensure Java 21+ and Maven 3.6+ are installed.
+   
+5. **Slow Api Response**: Since Ollama is being run locally , It is adivised to use models with less paramaters(~80m) if on a low end device.Newer vesions of           Ollama allows cloud options.
 
 ### Logs
 
